@@ -70,7 +70,7 @@ body {
             }
             .nav-links-wrapper-response {
                 width: 250px;
-                height: 60%;
+                height: 20%;
                 background: #f2f2f2;
                 opacity: .8;
                 position: fixed;
@@ -80,6 +80,7 @@ body {
                 flex-direction: column;
 
                 &:hover {
+                    height: 100%;
                     right: 0;
                     transition: .8s ease;
                 }
