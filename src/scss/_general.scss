@@ -69,6 +69,7 @@ body {
                     }
                 }
             }
+            
             .nav-links-wrapper-response {
                 width: 250px;
                 height: 20%;
@@ -79,6 +80,7 @@ body {
                 top: 0;
                 display: none;
                 flex-direction: column;
+                transition: .8s ease;
 
                 &:hover {
                     height: 100%;
